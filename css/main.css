@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Wisdom Script Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Wisdom Script Regular"), url(../fonts/wisdom-script-aj.woff) format('woff');
+}
+
+/*****BASE STYLES*****/
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+
+/*****GRID*****/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.upper-section, .lower-section {
+    margin: 0 auto;
+    clear: both;
+    float: left;
+}
+
+/****HEADER*****/
+header {
+    height: 110px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 56px 0;
+    float: left;
+}
+
+header ul {
+    float: right;
+    padding: 53px 0;
+}
+
+h1 span {
+    color: #77a466;
+}
+  
+header li{
+    display: inline-block;
+    margin-right: 29px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}  
+
+header a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+/*****IMAGE*****/
+.main-img {
+    height: auto;
+    float: left;
+    padding-bottom: 29px;
+}
+
+.main-img img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/*****UPPER SECTION*****/
+.title-intro {
+    height: auto;
+}
+
+.title-intro h3 {
+    font-size: 18px;
+    color: #77a466;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.title-intro p {
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
+/*****SPECIALS REVIEWS CONTACT*****/
+.menu-section, .reviews-section, .contact-section {
+    width: 396px;
+    height: auto;
+    float: left;
+    border-top: 3px solid #dedbdc;
+}
+
+.menu-section h4, .reviews-section h4, .contact-section h4 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+ 
+.menu-section h4 {
+    padding-top: 10px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #77a466;
+}
+
+.reviews-section {
+    border-left: 3px solid #dedbdc;
+    border-right: 3px solid #dedbdc;
+}
+.reviews-section h4, .contact-section h4 {
+    padding: 10px 30px;
+}
+
+.reviews-section p, .contact-section p {
+    padding: 0 30px;
+}
+
+/*****FOOTER*****/
+footer {
+    height: 80px;
+    border-top: 3px solid #dedbdc;
+    margin: 0 auto;
+    clear: both;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer span {
+    font-family: "Wisdom Script Regular";
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 20px;
+}
+
+  
+  
+  
